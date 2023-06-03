@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_task_dashboards", "Practice_task_dashboards\Practice_task_dashboards.csproj", "{1F2C8EDC-773D-4DC7-96B7-0F3CEC74F8FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Second_task", "Second_task\Second_task.csproj", "{22D33F4E-7AC3-471F-9B7A-F8FB9CDA12C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1F2C8EDC-773D-4DC7-96B7-0F3CEC74F8FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F2C8EDC-773D-4DC7-96B7-0F3CEC74F8FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F2C8EDC-773D-4DC7-96B7-0F3CEC74F8FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22D33F4E-7AC3-471F-9B7A-F8FB9CDA12C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D33F4E-7AC3-471F-9B7A-F8FB9CDA12C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D33F4E-7AC3-471F-9B7A-F8FB9CDA12C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D33F4E-7AC3-471F-9B7A-F8FB9CDA12C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

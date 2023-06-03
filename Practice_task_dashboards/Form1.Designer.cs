@@ -37,25 +37,25 @@
             System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -117,6 +117,54 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Початкові дані";
             // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(133, 136);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(136, 26);
+            this.textBox4.TabIndex = 5;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(133, 82);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(136, 26);
+            this.textBox3.TabIndex = 4;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(133, 34);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(136, 26);
+            this.textBox2.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(13, 139);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(108, 20);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Введіть крок";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(13, 85);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(114, 20);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Введіть Xmax";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(13, 37);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(110, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Введіть Xmin";
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.comboBox1);
@@ -129,6 +177,23 @@
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Значення графіків";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(7, 91);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(286, 28);
+            this.comboBox1.TabIndex = 7;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(7, 34);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(227, 40);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Виберіть функцію, значення \r\nякої потрібно показати";
             // 
             // groupBox3
             // 
@@ -146,32 +211,55 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Побудова графіків";
             // 
-            // label1
+            // checkBox5
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Введіть Xmin";
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(17, 305);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(251, 24);
+            this.checkBox5.TabIndex = 4;
+            this.checkBox5.Text = "Побудувати графік 4 + x + x^2";
+            this.checkBox5.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // checkBox4
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 85);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(114, 20);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Введіть Xmax";
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(17, 230);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(242, 24);
+            this.checkBox4.TabIndex = 3;
+            this.checkBox4.Text = "Побудувати графік корінь(x)";
+            this.checkBox4.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // checkBox3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 139);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 20);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Введіть крок";
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(17, 161);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(255, 24);
+            this.checkBox3.TabIndex = 2;
+            this.checkBox3.Text = "Побудувати графік cos(x) +2*x";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(17, 94);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(220, 24);
+            this.checkBox2.TabIndex = 1;
+            this.checkBox2.Text = "Побудувати графік cos(x)";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(17, 37);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(215, 24);
+            this.checkBox1.TabIndex = 0;
+            this.checkBox1.Text = "Побудувати графік sin(x)";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -210,94 +298,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(300, 651);
             this.textBox1.TabIndex = 7;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(133, 34);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(136, 26);
-            this.textBox2.TabIndex = 3;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(133, 82);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(136, 26);
-            this.textBox3.TabIndex = 4;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(133, 136);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(136, 26);
-            this.textBox4.TabIndex = 5;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(7, 34);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(227, 40);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Виберіть функцію, значення \r\nякої потрібно показати";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(7, 91);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(286, 28);
-            this.comboBox1.TabIndex = 7;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(17, 37);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(215, 24);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Побудувати графік sin(x)";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(17, 94);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(220, 24);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "Побудувати графік cos(x)";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(17, 161);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(255, 24);
-            this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "Побудувати графік cos(x) +2*x";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(17, 230);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(264, 24);
-            this.checkBox4.TabIndex = 3;
-            this.checkBox4.Text = "Побудувати графік на корінь(x)";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(17, 305);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(251, 24);
-            this.checkBox5.TabIndex = 4;
-            this.checkBox5.Text = "Побудувати графік 4 + x + x^2";
-            this.checkBox5.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 

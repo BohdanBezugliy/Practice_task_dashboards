@@ -50,6 +50,7 @@ namespace Second_task
             chart1.Legends["Legend2"].Position.Auto = false;
             chart1.Legends["Legend2"].Position = new ElementPosition(85, 51.5f, 10, 30);
             chart1.Series[1].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            chart1.ChartAreas[1].Area3DStyle.Enable3D = true;
             chart1.Series[1].Points.DataBindXY(Age, Count);
         }
         private void button4_Click(object sender, EventArgs e)
